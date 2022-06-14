@@ -1,3 +1,9 @@
+cloud-init (22.2-0ubuntu1~22.04.3) jammy; urgency=medium
+
+  * Remove schema errors from log (LP: #1978422)
+
+ -- James Falcon <james.falcon@canonical.com>  Tue, 14 Jun 2022 06:31:00 -0500
+
 cloud-init (22.2-0ubuntu1~22.04.2) jammy; urgency=medium
 
   * cherry-pick a2e62738: Fix cc_phone_home requiring 'tries' (#1500)
