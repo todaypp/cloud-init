@@ -1,3 +1,10 @@
+cloud-init (22.2-0ubuntu1~21.10.3) impish; urgency=medium
+
+  * d/cloud-init.postinst: redact previously leaked schema errors from logs
+  * Remove schema errors from log (LP: #1978422) (CVE-2022-2084)
+
+ -- James Falcon <james.falcon@canonical.com>  Wed, 15 Jun 2022 11:03:49 -0500
+
 cloud-init (22.2-0ubuntu1~21.10.2) impish; urgency=medium
 
   * cherry-pick a2e62738: Fix cc_phone_home requiring 'tries' (#1500)
