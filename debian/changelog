@@ -1,6 +1,7 @@
 cloud-init (22.2-0ubuntu1~22.04.3) jammy; urgency=medium
 
-  * Remove schema errors from log (LP: #1978422)
+  * d/cloud-init.postinst: redact previously leaked schema errors from logs
+  * Remove schema errors from log (LP: #1978422) (CVE-2022-2084)
 
  -- James Falcon <james.falcon@canonical.com>  Tue, 14 Jun 2022 06:31:00 -0500
 
